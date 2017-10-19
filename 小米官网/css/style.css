@@ -30,7 +30,8 @@ nav开始 */
 
 .nav{
     background: #333;
-    height:40px;
+
+
 }
 
 .wrapper{
@@ -40,21 +41,42 @@ nav开始 */
     background: #333;
 }
 
-.main-nav li{
+.main-nav{
+    overflow: hidden;
+    float: left;
+}
+
+.main-nav li,.user-info li{
     float: left;
     height:40px;
     line-height: 40px;
 }
 
-.main-nav li a {
+.main-nav li a,.user-info li a{
     color: #b0b0b0;
     font-size: 12px;
 }
 
-.main-nav li span{
+
+
+.main-nav li span,.user-info li span{
     color: #424242;
     margin:0 5px;
 }
+
+
+.user-info{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
 
 
 
